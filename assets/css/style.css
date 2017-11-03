@@ -134,6 +134,7 @@ div#countdown {
     font-family: 'Oswald', sans-serif;
     font-size: 25px;
     padding: 10px 10px;
+    text-transform: uppercase;
 }
 
 .narasumber {
@@ -143,7 +144,7 @@ div#countdown {
     top: 50%;
     left: 50%;
     margin-bottom: 30px;
-    margin-top: 60px;
+    margin-top: 90px;
 }
 
 .sponsor {
@@ -223,6 +224,18 @@ p.text-center {
 }
 
 @media (min-width:500px) {
+    #btn-lg {
+        padding: 8px 20px;
+    }
+}
+
+@media (max-width:499px) {
+    #btn-lg {
+        padding: 8px 20px;
+    }
+}
+
+@media (min-width:500px) {
     .topic {
         font-size: 25px;
     }
@@ -281,7 +294,7 @@ p.text-center {
     div#countdown {
         font-family: 'Oswald', sans-serif;
         font-size: 20px;
-        padding: 10px 10px;
+        padding-top: 15px;
     }
 }
 
@@ -289,7 +302,7 @@ p.text-center {
     div#countdown {
         font-family: 'Oswald', sans-serif;
         font-size: 20px;
-        padding: 10px 10px;
+        padding-top: 15px;
     }
 }
 
